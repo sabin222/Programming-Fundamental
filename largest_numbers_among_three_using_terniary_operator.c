@@ -1,5 +1,5 @@
 /*
-Student Name : Kabir D Shrestha 
+Student Name : Sabin koju 
 Subject : Programming Fundamental
 Lab No. : 07
 Program : Write a C program to print largest numbers among three using terniary operator. 
