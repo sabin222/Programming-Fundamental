@@ -21,9 +21,9 @@ scanf("%f",&b);
 printf("\n Enter the value of C : ");
 scanf("%f",&c);
 
-x1=-2+(sqrt(pow(b,2)-(4*a*c)))/(2*a);
+x1=((-b)+(sqrt(pow(b,2)-(4*a*c))))/(2*a);
 
-x2= -2-(sqrt(pow(b,2)-(4*a*c)))/(2*a);
+x2=((-b)-(sqrt(pow(b,2)-(4*a*c))))/(2*a);
 
 printf("\n\n The value of first root is : %f",x1);
 printf("\n\n The value of second root is : %f",x2);
