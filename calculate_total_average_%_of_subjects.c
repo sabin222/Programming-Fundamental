@@ -15,7 +15,7 @@ float a,b,c,d,e,F,g,total,average,percentage;
 
 printf("\n Enter marks of computer Architecture : ");
 scanf("%f",&a);
-printf("\n Enter marks of algebra Math : ");
+ printf("\n Enter marks of algebra Math : ");
 scanf("%f",&b);
 printf("\n Enter marks of discrete Math : ");
 scanf("%f",&c);
@@ -35,7 +35,6 @@ percentage=(total/7);
 printf("\n\n\t The total marks is : %f",total);
 printf("\n\n\t The average marks is : %f",average);
 printf("\n\n\t Your percentage is : %f",percentage);
-
 getch();
 return 0;
 }
