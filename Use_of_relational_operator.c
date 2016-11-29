@@ -34,7 +34,7 @@ a>=b;
 printf("\n In use of >= of %d",a>=b);
 
 a<=b;
-printf("\n In use of >= of %d",a<=b);
+printf("\n In use of <= of %d",a<=b);
 
 return 0;
 
