@@ -1,34 +1,33 @@
 /*
-Student Name : Sabin koju
-Subject : Programming Fundamentals
-Roll No : 
-Program : WAP to declare array of 10 elements and search element to print whether exist or nor. 
-Lab Sheet No : 23
-Date : 30 Jan 2017
+Student name : Sabin koju
+roll No : 26
+Subject : Programming fundamental
+Lab sheet no : 28
+Program : WAP to declare array of 10 elements and check whether it exist or not.
+Date : 5 feb,2017
 */
 
-
 #include<stdio.h>
+
 int main()
 {
-int i,array[10],b;
-for(i=0;i<10;i++)
-{
-   printf("\n Enter arraY %d  :  ",i+1);
-   scanf("%d",&array[i]);
-}
-   printf("\n Enter the number of array to search : ");
-   scanf("%d",&b);
-   i = 0;
-   while (i < 10 && b != array[i])
-    {
-      i++;
+int array[10]={23,4,5,1,21,56,98,20,11,77},a,i,n;
+
+
+   printf("\n Enter The number to search : ");
+   scanf("%d",&a);
+   for(i=0;i<10;i++)
+   {
+      if(a==array[i])
+      {
+         n=1;
+         break;
+      }
    }
-   
-   if (i < 10) {
-      printf("Number found at the location = %d", i + 1);
-   } else {
-      printf("Number not found");
-   }
-   return 0;
+   if(n==1)
+      printf("\n exists.");
+   else
+      printf("\n Doesnot exists.");
+ 
+  return 0;
 }
