@@ -3,7 +3,7 @@ Name: sabin koju
 Roll:
 Subject:Programming fundamental
 Lab: 04
-Programme: Program to use of Assignment operator
+Programme: Program to use of Relational operator
 Date:20 oct,2016
 */
 
